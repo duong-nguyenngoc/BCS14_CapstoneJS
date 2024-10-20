@@ -1,0 +1,93 @@
+.navbar-brand{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.carousel {
+    background-image: url(../../img/image\ 6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container {
+        height: 100vh;
+        position: relative;
+    }
+    .carousel_item{
+        display: flex;
+        justify-content: space-between;
+    }
+    .carousel_content {
+        position: relative;
+        vertical-align: middle;
+        padding-top: 30vh;
+
+        h3 {
+            font-weight: bold;
+            font-size: $fs-4xl;
+        }
+    }
+    .carousel_img {
+        padding-right: 0px;
+    }
+}
+
+.product {
+    .container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    h2{
+        font-weight: $fw-bold;
+        font-size: $fs-4xl;
+    }
+    .row {
+        .product_item{
+            padding: 35px;
+        }
+        .card_wrap {
+            background-color: #f8f8f8;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card_body {
+            padding: 10px;
+        }
+        img {
+            align-items: center;
+            width: 100%;
+            height: auto;
+        }
+        h4 {
+            text-transform: uppercase;
+            font-weight: $fw-bold;
+        }
+        p {
+            font-size: $fs-2xl;
+        }
+    }
+    .card_footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        button {
+            background-color: $bg-btn;
+            border: $bg-btn;
+            width: 55%;
+            height: 100%;
+            a {
+                font-size: $fs-3xl;
+                color: #f8f8f8;
+                text-decoration: none;
+                background-size: cover;
+            }
+        }
+        .price {
+            width: 45%;
+            text-align: center;
+            font-size: $fs-3xl;
+            background-color: #dedede;
+        }
+    }
+}
